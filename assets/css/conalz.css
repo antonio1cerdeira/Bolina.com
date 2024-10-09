@@ -8322,20 +8322,23 @@ ul {
   opacity: .80;
   padding-bottom: 35px;
 }
-
+@media (max-width: 768px) {
 .service-details__benefits-single {
+  flex-direction: column; /* Empilha o ícone e o conteúdo */
   position: relative;
-  display: block;
+  display: flex;
   border: 1px solid var(--conalz-black);
   padding: 25px 25px 30px;
   margin-bottom: 30px;
+  align-items: flex-start; /* Alinha o ícone e o texto no topo */
 }
 
 .service-details__benefits-icon-box {
   position: relative;
   display: flex;
   align-items: center;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+}
 }
 
 .service-details__benefits-icon {
