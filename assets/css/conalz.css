@@ -9442,9 +9442,10 @@ ul {
 --------------------------------------------------------------*/
 .team-page {
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center; /* Centraliza os elementos horizontalmente */
   padding: 120px 0 90px;
-}
+  flex-wrap: wrap; /* Faz com que os itens quebrem para uma nova linha, se necessário */
 
 .team-page .team-one__single {
   margin-bottom: 30px;
