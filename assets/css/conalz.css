@@ -5657,6 +5657,7 @@ ul {
   display: block;
   text-align: center; /* Centraliza a imagem */
   overflow: hidden;
+  margin-left: 20px;
 }
 
 .team-one__img:before {
