@@ -4295,6 +4295,19 @@ ul {
   opacity: .40;
 }
 
+.newsletter-one__form-input-box input[type="text"] {
+  width: 100%;
+  background-color: #1567f8;
+  outline: none;
+  font-size: 16px;
+  color: var(--conalz-white);
+  border: 1px solid #2d79ff;
+  padding-left: 25px;
+  padding-right: 100px;
+  height: 74px;
+  opacity: .40;
+}
+
 .newsletter-one__newsletter-btn {
   position: absolute;
   right: 8px;
@@ -9507,15 +9520,3 @@ ul {
 .team-three {
   padding-top: 0;
 }
-
-
-
-
-
-
-
-
-
-/*--------------------------------------------------------------
-# FAQ Page
---------------------------------------------------------------*/

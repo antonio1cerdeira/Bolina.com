@@ -78,23 +78,9 @@
                                     <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                                     <ul class="main-menu__list">
                                         <li class="dropdown current">
-                                            <li>                                
-                                                <a href="index.html">Home</a>
-                                            </li>
                                         <li>
                                             <a href="product-design.html">Agro Harmonia</a>
-                                        </li>
-                                        <li class="dropdown">
-                                            <a href="#">About</a>
-                                            <ul>
-                                                <li><a href="team.html">Team</a></li>
-                                                <li><a href="about.html">Bolina</a></li>
-    
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <a href="blog.html">Blog</a>
-                                        </li>
+                                        </li>                                 
                                         <li>
                                             <a href="contact.html">Contact</a>
                                         </li>
@@ -217,64 +203,32 @@
         </section>
         <!--Address End-->
 
-        <!--Contact Form Start-->
-        <section class="contact-form-box">
-            <div class="container">
-                <div class="contact-form__title-box">
-                    <span>Meesage now !</span>
-                    <h3>Feel free to ask questions or share <br> your message with us.</h3>
-                </div>
-                <form action="https://themazine.com/mr/conalz-html/assets/inc/sendemail.php" class="contact-form contact-form-validated"
-                    novalidate="novalidate">
-                    <div class="row">
-                        <div class="col-xl-12">
-                            <div class="contact-form__input-box">
-                                <p>Name</p>
-                                <input type="text" placeholder="Carlos Alberto" name="name">
-                            </div>
-                        </div>
-                        <div class="col-xl-12">
-                            <div class="contact-form__input-box">
-                                <p>Email</p>
-                                <input type="email" placeholder="geral@ourcompany.com" name="email">
-                            </div>
-                        </div>
-                        <div class="col-xl-12">
-                            <div class="contact-form__input-box text-message-box">
-                                <textarea name="message" placeholder="Type your message"></textarea>
-                            </div>
-                            <div class="contact-form__btn-box">
-                                <button type="submit" class="thm-btn contact-form__btn">Send A Message</button>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </section>
-        <!--Contact Form End-->
-
         <!--Newsletter Two start-->
         <section class="newsletter-one">
             <div class="container">
                 <div class="newsletter-one__inner">
                     <div class="newsletter-one__left">
                         <div class="newsletter-one__title">
-                            <h4>Newsletter</h4>
-                            <p>Subscribe us & get news, articles to your inbox.</p>
+                            <h4>Want to Keep With Us?</h4>
+                            <p>Subscribe to our newsletter and stay updated.</p>
                         </div>
                         <div class="newsletter-one__email-box">
-                            <form class="newsletter-one__form">
-                                <div class="newsletter-one__form-input-box">
-                                    <input type="email" placeholder="Email Address" name="email">
-                                    <button type="submit" class="newsletter-one__newsletter-btn"><i
-                                            class="icon-send"></i></button>
+                            <form method="post" action="https://bolina.overslep.pt/subscription/form" class="newsletter-one__form listmonk-form">
+                                <input type="hidden" name="nonce" />
+                                <div class="newsletter-one__form-input-box">                                    
+                                    <input type="text" name="name" placeholder="Name" />
+                                    <input type="email" name="email" required placeholder="Your Best Email Address" />
+                                    <div class="newsletter-one__checkbox">
+                                        <input id="f62d5" type="checkbox" style="display:none" name="l" checked value="f62d5805-aaa1-4006-9c0b-aa4658e0c94a" />
+                                        <label for="f62d5" style="display:none">Websummit</label>
+                                    </div>
+                                    <button type="submit" class="newsletter-one__newsletter-btn">
+                                        <i class="icon-send"></i>
+                                    </button>
                                 </div>
                             </form>
                         </div>
-                    </div>
-                    <div class="newsletter-one__right">
-                        <a href="services-v-2.html" class="thm-btn newsletter-one__button">More Services</a>
-                    </div>
+                    </div>                   
                 </div>
             </div>
         </section>
