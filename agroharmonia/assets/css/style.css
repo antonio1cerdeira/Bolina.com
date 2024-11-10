@@ -248,7 +248,7 @@ h2 span.highlight {
 }
 .site_logo_area{
     text-align: left;
-    background: var(--bgcolor);
+    background: white;
     padding: 25px 40px;
     margin-left: -20px;
     margin-right: 100px;
