@@ -329,24 +329,7 @@
       }
     });
   }
-  //team one 
-  $('.team-one__carousel').owlCarousel({
-    loop: false,
-    autoplay: false,
-    margin: 30,
-    nav: true,
-    dots: false,
-    smartSpeed: 500,
-    autoplayTimeout: 10000,
-    center: true, // Adicionado para centralizar os itens
-    navText: ["<span class=\"icon-left-arrow-1\"></span>","<span class=\"icon-right-arrow-1\"></span>"],
-    responsive: {
-        0: { items: 1 },
-        768: { items: 2 },
-        992: { items: 2 },
-        1200: { items: 4 }
-    }
-});
+
   // mailchimp form
   if ($(".mc-form").length) {
     $(".mc-form").each(function () {
